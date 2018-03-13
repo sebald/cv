@@ -1,0 +1,28 @@
+{
+  "setupTestFrameworkScriptFile": "<rootDir>/src/setupTest.ts",
+  "setupFiles": [
+    "raf/polyfill"
+  ],
+  "snapshotSerializers": [
+    "enzyme-to-json/serializer"
+  ],
+  "transform": {
+    ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+  },
+  "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js",
+    "json"
+  ],
+  "testPathIgnorePatterns": [
+    "/node_modules/"
+  ],
+  "coveragePathIgnorePatterns": [
+    "/node_modules/",
+    "/*.d.ts/",
+    "index.ts",
+    "types.ts"
+  ]
+}

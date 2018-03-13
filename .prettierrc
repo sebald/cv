@@ -1,0 +1,6 @@
+{
+  "parser": "typescript",
+  "useTabs": false,
+  "singleQuote": true,
+  "trailingComma": "es5"
+}

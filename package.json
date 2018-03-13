@@ -1,0 +1,44 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "repository": "git@bitbucket.org:sebald/site.git",
+  "author": "Sebastian Sebald <sebastian.sebald@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "styled-components": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.9",
+    "@types/enzyme-adapter-react-16": "^1.0.2",
+    "@types/enzyme-to-json": "^1.5.1",
+    "@types/jest": "^22.2.0",
+    "@types/react": "^16.0.40",
+    "@types/react-dom": "^16.0.4",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.1",
+    "jest": "^22.4.2",
+    "jest-styled-components": "^5.0.0",
+    "parcel-bundler": "^1.6.2",
+    "ts-jest": "^22.4.1",
+    "tslint": "^5.9.1",
+    "tslint-config-prettier": "^1.9.0",
+    "tslint-react": "^3.5.1",
+    "typescript": "^2.7.2",
+    "typescript-styled-plugin": "^0.6.0"
+  },
+  "scripts": {
+    "start": "parcel index.html --open",
+    "test": "jest --config jest.config.json",
+    "coverage":
+      "jest --config jest.config.json --coverage --coverageReporters html",
+    "typecheck": "tsc --noEmit",
+    "lint": "tslint \"src/**/*.ts\"",
+    "format": "prettier --parser typescript --write \"src/**/!(*.d).ts\""
+  }
+}
