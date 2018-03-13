@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { render } from 'react-dom';
 
-import { BaselineGrid } from './components/Baseline';
+import { App } from './App';
 import { injectGlobal, theme, ThemeProvider } from './style';
 
 injectGlobal`
@@ -23,10 +23,7 @@ injectGlobal`
 
 render(
   <ThemeProvider theme={theme}>
-    <>
-      <h1>Hello there!</h1>
-      <BaselineGrid />
-    </>
+    <App />
   </ThemeProvider>,
   document.getElementById('root')
 );
