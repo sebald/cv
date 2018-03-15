@@ -1,4 +1,7 @@
-import { TypographyStyles, TIF } from '../theme';
+import { StyledMixin, ThemedStyledProps, TypographyStyles } from '../theme';
 
-export const typography = (name: TypographyStyles): TIF => props =>
+export const getHtmlFontSize = (props: ThemedStyledProps) =>
+  props.theme.typography.htmlFontSize;
+
+export const typography = (name: TypographyStyles): StyledMixin => props =>
   props.theme.typography[name];

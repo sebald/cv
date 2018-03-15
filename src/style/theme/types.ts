@@ -17,7 +17,7 @@ export type ThemedInterpolationFunction<P = {}> = Styled.InterpolationFunction<
   Styled.ThemeProps<Theme> & P
 >;
 
-export type TIF<P = {}> = ThemedInterpolationFunction<P>;
+export type StyledMixin<P = {}> = ThemedInterpolationFunction<P>;
 
 // Theme Props
 // ---------------

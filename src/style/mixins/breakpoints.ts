@@ -1,9 +1,9 @@
 import { Interpolation } from 'styled-components';
 import { css } from '../styled-components';
-import { Theme, ThemedStyledProps, TIF } from '../theme';
+import { StyledMixin, Theme, ThemedStyledProps } from '../theme';
 import { px } from '../utils';
 
-export const breakpoints: TIF = props => props.theme.breakpoints;
+export const breakpoints: StyledMixin = props => props.theme.breakpoints;
 
 export const media = <P = {}>(name: keyof Theme['breakpoints']) => (
   strings: TemplateStringsArray,

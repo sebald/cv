@@ -1,3 +1,4 @@
-import { Color, TIF } from '../theme';
+import { Color, StyledMixin } from '../theme';
 
-export const color = (value: Color): TIF => props => props.theme.palette;
+export const color = (value: Color): StyledMixin => props =>
+  props.theme.palette;
