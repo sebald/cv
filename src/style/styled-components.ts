@@ -4,7 +4,7 @@ import {
   ThemedStyledFunction,
 } from 'styled-components';
 
-import { Theme } from './types';
+import { Theme } from './theme';
 
 // https://github.com/styled-components/styled-components/issues/630#issuecomment-317172454
 function withProps<U>() {
@@ -14,7 +14,7 @@ function withProps<U>() {
     fn as ThemedStyledFunction<P & U, T, O & U>;
 }
 
-// Alternative, maybe better approach?
+// Alternative, maybe a better approach?
 type TTag = keyof JSX.IntrinsicElements;
 
 function suit<U>(tag: TTag) {

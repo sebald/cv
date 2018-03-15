@@ -1,4 +1,4 @@
-import { ensurePx, px, pxToRem, remToPx } from './utils';
+import { ensurePx, px, pxToRem, remToPx } from './unit';
 
 test('px', () => {
   expect(px(16)).toMatchSnapshot();

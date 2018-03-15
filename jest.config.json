@@ -1,4 +1,5 @@
 {
+  "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
   "setupTestFrameworkScriptFile": "<rootDir>/src/setupTest.ts",
   "setupFiles": [
     "raf/polyfill"
@@ -7,9 +8,11 @@
     "enzyme-to-json/serializer"
   ],
   "transform": {
-    ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    "^.+\\.(j|t)sx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
   },
-  "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+  "transformIgnorePatterns": [
+  "<rootDir>/node_modules/(?!lodash-es/.*)"
+],
   "moduleFileExtensions": [
     "ts",
     "tsx",
@@ -23,6 +26,8 @@
     "/node_modules/",
     "/*.d.ts/",
     "index.ts",
-    "types.ts"
+    "types.ts",
+    "test.utils.tsx",
+    "setupTest.ts"
   ]
 }
