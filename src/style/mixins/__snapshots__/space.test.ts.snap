@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basline 1`] = `"1rem"`;
+
+exports[`padding 1`] = `
+Object {
+  "padding": "1rem",
+}
+`;
+
+exports[`padding 2`] = `
+Object {
+  "padding": "1rem 1rem 1rem 1rem",
+}
+`;
+
+exports[`padding 3`] = `
+Object {
+  "padding": "1rem 2rem",
+}
+`;
+
+exports[`padding 4`] = `
+Object {
+  "padding": "1rem 1rem 2rem",
+}
+`;
+
+exports[`padding 5`] = `
+Object {
+  "padding": "1rem 1rem 2rem 3rem",
+}
+`;
