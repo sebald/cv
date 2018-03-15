@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render children 1`] = `
+<Styled(StyledChildren)>
+  <StyledChildren
+    className=""
+  >
+    <div
+      className=""
+      key=".0"
+    >
+      Hello
+    </div>
+    <h2
+      className=""
+      key=".1"
+    >
+      there
+    </h2>
+  </StyledChildren>
+</Styled(StyledChildren)>
+`;
+
+exports[`render correctly 1`] = `
+<Styled(StyledChildren)>
+  <StyledChildren
+    className=""
+  />
+</Styled(StyledChildren)>
+`;
