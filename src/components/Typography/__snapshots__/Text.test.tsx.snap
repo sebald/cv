@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+.c0 {
+  font-size: 1rem;
+  line-height: 2rem;
+  padding-top: 0.625rem;
+  margin-top: 0;
+  margin-bottom: 1.375rem;
+  color: #424242;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 300;
+}
+
+<p
+  className="c0"
+>
+  Text
+</p>
+`;
