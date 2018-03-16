@@ -5,6 +5,7 @@
     "lib": ["es2017", "dom"],
     "sourceMap": true,
     "allowJs": true,
+    "allowSyntheticDefaultImports": true,
     "jsx": "react",
     "moduleResolution": "node",
     "strict": true,
@@ -26,6 +27,7 @@
   },
   "exclude": [
     ".cache",
+    "coverage",
     "node_modules",
     "dist"
   ]

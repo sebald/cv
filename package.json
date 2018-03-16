@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "create-react-context": "^0.2.1",
     "lodash-es": "^4.17.7",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
