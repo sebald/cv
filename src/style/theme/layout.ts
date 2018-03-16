@@ -1,3 +1,3 @@
 export default {
-  sidebar: 300,
+  sidebar: 400,
 };
