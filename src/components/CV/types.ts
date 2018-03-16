@@ -4,8 +4,7 @@ export type PersonalInformation = {
   firstName: string;
   lastName: string;
   birthdate: string;
-  addrress: Record<'street' | 'zip' | 'city', string>;
-  contact: Record<'phone' | 'email', string>;
+  contact: Record<'street' | 'zip' | 'city' | 'phone' | 'email', string>;
   spokenLanguages: string[];
   social: Record<'github' | 'stackoverflow' | 'twitter', string>;
 };
