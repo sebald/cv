@@ -10,10 +10,10 @@ exports[`render correctly 1`] = `
   color: #212121;
   font-family: 'Montserrat',sans-serif;
   font-weight: 600;
-  -webkit-letter-spacing: -3px;
-  -moz-letter-spacing: -3px;
-  -ms-letter-spacing: -3px;
-  letter-spacing: -3px;
+  -webkit-letter-spacing: -1px;
+  -moz-letter-spacing: -1px;
+  -ms-letter-spacing: -1px;
+  letter-spacing: -1px;
 }
 
 <h1

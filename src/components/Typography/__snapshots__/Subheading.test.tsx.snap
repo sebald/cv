@@ -4,12 +4,13 @@ exports[`render correctly 1`] = `
 .c0 {
   font-size: 1.5rem;
   line-height: 2rem;
-  padding-top: 0.25rem;
+  padding-top: 0.4375rem;
   margin-top: 0;
-  margin-bottom: 1.75rem;
+  margin-bottom: 1.5625rem;
   color: #212121;
   font-family: 'Montserrat',sans-serif;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 <h3

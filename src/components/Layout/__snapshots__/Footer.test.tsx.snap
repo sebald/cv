@@ -12,7 +12,7 @@ exports[`render correctly 1`] = `
     -webkit-order: 1;
     -ms-flex-order: 1;
     order: 1;
-    width: 300px;
+    width: 400px;
   }
 }
 

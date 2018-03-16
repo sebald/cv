@@ -1,6 +1,18 @@
-import { styled, typography } from '../../style';
+import {
+  fontWeight,
+  suit,
+  textAlign,
+  textTransform,
+  typography,
+  StyledProps,
+} from '../../style';
 
-export const Subheading = styled.h3`
+export const Subheading = suit<
+  StyledProps<'fontWeight' | 'textAlign' | 'textTransform'>
+>('h3')`
   ${typography('subheading')};
+  ${fontWeight};
+  ${textTransform};
+  ${textAlign};
 `;
 Subheading.displayName = 'Subheading';
