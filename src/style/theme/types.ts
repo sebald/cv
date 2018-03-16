@@ -1,7 +1,6 @@
 import * as Styled from 'styled-components';
 import theme from '.';
 import palette from './palette';
-import { typeStyles } from './typography';
 
 // Theme
 // ---------------
@@ -21,5 +20,10 @@ export type StyledMixin<P = {}> = ThemedInterpolationFunction<P>;
 
 // Theme Props
 // ---------------
-export type TypographyStyles = keyof typeof typeStyles;
+export type TypographyStyles =
+  | 'display'
+  | 'heading'
+  | 'subheading'
+  | 'caption'
+  | 'body';
 export type Color = keyof typeof palette;
