@@ -31,3 +31,50 @@ Object {
   "padding": "1rem 1rem 2rem 3rem",
 }
 `;
+
+exports[`spacing 1`] = `
+Object {
+  "marginLeft": "1rem",
+  "marginRight": "1rem",
+}
+`;
+
+exports[`spacing 2`] = `
+Object {
+  "marginBottom": "1rem",
+  "marginTop": "1rem",
+}
+`;
+
+exports[`spacing 3`] = `
+Object {
+  "marginBottom": "1rem",
+  "marginLeft": "2rem",
+  "marginRight": "2rem",
+  "marginTop": "1rem",
+}
+`;
+
+exports[`spacing 4`] = `
+Object {
+  "margin": "2rem",
+}
+`;
+
+exports[`spacing 5`] = `
+Object {
+  "margin": "2rem",
+  "marginLeft": "1rem",
+  "marginRight": "1rem",
+}
+`;
+
+exports[`spacing 6`] = `
+Object {
+  "margin": "3rem",
+  "marginBottom": "2rem",
+  "marginLeft": "1rem",
+  "marginRight": "1rem",
+  "marginTop": "2rem",
+}
+`;

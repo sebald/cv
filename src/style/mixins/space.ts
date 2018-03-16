@@ -7,12 +7,17 @@ import { CSSProperties } from 'react';
 
 import { StyledMixin, ThemedStyledProps } from '../theme';
 import { pxToRem } from '../utils';
+import { Spacing } from './types';
 import { getHtmlFontSize } from './typography';
 
+// Baseline
+// ---------------
 const getBaseline = (props: ThemedStyledProps) => props.theme.space.baseline;
 
 export const baseline: StyledMixin = flow(getBaseline, pxToRem);
 
+// Padding
+// ---------------
 export const padding = (
   top: number,
   right?: number,
@@ -26,12 +31,8 @@ export const padding = (
     .join(' '),
 });
 
-export type Spacing = {
-  m?: number;
-  mx?: number;
-  my?: number;
-};
-
+// Spacing
+// ---------------
 const SPACING_PROP_EXP = /^m[xy]?$/;
 
 const sidesMap = {
