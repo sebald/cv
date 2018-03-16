@@ -2,7 +2,7 @@
 
 exports[`get html font size 1`] = `16`;
 
-exports[`typographyStyle 1`] = `
+exports[`typography 1`] = `
 Object {
   "color": "#424242",
   "fontFamily": "'Raleway', sans-serif;",
@@ -15,7 +15,7 @@ Object {
 }
 `;
 
-exports[`typographyStyle 2`] = `
+exports[`typography 2`] = `
 Object {
   "color": "#9e9e9e",
   "fontFamily": "'Montserrat', sans-serif;",

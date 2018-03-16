@@ -3,7 +3,7 @@ import { CSSProperties } from 'react';
 import { adjustBaseline, createTypography, px, ratio as r } from '../utils';
 import palette from './palette';
 import space from './space';
-import { TypographyStyles } from './types';
+import { TypographyStyle } from './types';
 
 // Rhythm
 // ---------------
@@ -35,7 +35,7 @@ const adjust = adjustBaseline(baseline);
 
 // Styles
 // ---------------
-export const typeStyles: { [name in TypographyStyles]: CSSProperties } = {
+export const typeStyles: { [name in TypographyStyle]: CSSProperties } = {
   display: {
     ...typography(3),
     ...adjust(12),

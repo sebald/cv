@@ -37,4 +37,5 @@ export {
   suit,
   StyledProps,
   ThemeProvider,
+  TTag,
 };

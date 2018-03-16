@@ -20,7 +20,7 @@ export type StyledMixin<P = {}> = ThemedInterpolationFunction<P>;
 
 // Theme Props
 // ---------------
-export type TypographyStyles =
+export type TypographyStyle =
   | 'display'
   | 'heading'
   | 'subheading'
