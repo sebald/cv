@@ -1,3 +1,4 @@
+import { CSSProperties } from 'react';
 import * as styledComponents from 'styled-components';
 import {
   ThemedStyledComponentsModule,
@@ -6,17 +7,13 @@ import {
 
 import { Theme } from './theme';
 
-// https://github.com/styled-components/styled-components/issues/630#issuecomment-317172454
-function withProps<U>() {
-  return <P, T, O>(
-    fn: ThemedStyledFunction<P, T, O>
-  ): ThemedStyledFunction<P & U, T, O & U> =>
-    fn as ThemedStyledFunction<P & U, T, O & U>;
-}
+type StyledProps<T extends string> = Pick<CSSProperties, T>;
 
-// Alternative, maybe a better approach?
+/**
+ * Make styled-components work with props.
+ * More info: https://github.com/styled-components/styled-components/issues/630#issuecomment-317172454
+ */
 type TTag = keyof JSX.IntrinsicElements;
-
 function suit<U>(tag: TTag) {
   return styled[tag] as ThemedStyledFunction<
     JSX.IntrinsicElements[TTag] & U,
@@ -32,4 +29,12 @@ const {
   ThemeProvider,
 } = styledComponents as ThemedStyledComponentsModule<Theme>;
 
-export { styled, css, injectGlobal, keyframes, withProps, suit, ThemeProvider };
+export {
+  styled,
+  css,
+  injectGlobal,
+  keyframes,
+  suit,
+  StyledProps,
+  ThemeProvider,
+};
