@@ -22,7 +22,6 @@ const fontFamily = {
 const headingStyle: CSSProperties = {
   color: palette.grey['900'],
   fontFamily: fontFamily.heading,
-  fontWeight: 600,
 };
 
 const typography = createTypography({
@@ -40,18 +39,21 @@ export const typeStyles: { [name in TypographyStyle]: CSSProperties } = {
     ...typography(3),
     ...adjust(12),
     ...headingStyle,
+    fontWeight: 400,
     letterSpacing: px(-1),
   },
   heading: {
     ...typography(2),
-    ...adjust(4),
+    ...adjust(3),
     ...headingStyle,
+    fontWeight: 600,
     textTransform: 'uppercase',
   },
   subheading: {
     ...typography(1),
-    ...adjust(7),
+    ...adjust(7, 0.5),
     ...headingStyle,
+    fontWeight: 600,
     textTransform: 'uppercase',
   },
   caption: {
