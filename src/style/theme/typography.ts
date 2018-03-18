@@ -46,14 +46,14 @@ export const typeStyles: { [name in TypographyStyle]: CSSProperties } = {
     ...typography(2),
     ...adjust(3),
     ...headingStyle,
-    fontWeight: 600,
+    fontWeight: 400,
     textTransform: 'uppercase',
   },
   subheading: {
     ...typography(1),
     ...adjust(7, 0.5),
     ...headingStyle,
-    fontWeight: 600,
+    fontWeight: 400,
     textTransform: 'uppercase',
   },
   caption: {
