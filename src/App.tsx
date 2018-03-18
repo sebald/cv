@@ -1,13 +1,14 @@
 import * as React from 'react';
 
 import { BaselineGrid } from './components/Baseline';
+import * as CV from './components/CV';
 import * as Layout from './components/Layout';
 import * as Typography from './components/Typography';
 
 export const App: React.SFC = () => (
   <Layout.Container>
     <Layout.Header>
-      <Typography.Display>Sebastian Sebald</Typography.Display>
+      <CV.Title />
     </Layout.Header>
     <Layout.Main>
       <Typography.Text>
@@ -21,10 +22,13 @@ export const App: React.SFC = () => (
         sollicitudin ligula.
       </Typography.Text>
       <Typography.Heading>Heading</Typography.Heading>
+      <CV.Heading>CV Heading</CV.Heading>
       <Typography.Subheading>Subheading</Typography.Subheading>
       <Typography.Caption>Caption</Typography.Caption>
     </Layout.Main>
-    <Layout.Footer>Footer</Layout.Footer>
+    <Layout.Footer>
+      <CV.Contact />
+    </Layout.Footer>
     <BaselineGrid />
   </Layout.Container>
 );
