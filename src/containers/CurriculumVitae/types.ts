@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 export type PersonalInformation = {
   firstName: string;
   lastName: string;
@@ -9,7 +7,7 @@ export type PersonalInformation = {
   social: Record<'github' | 'stackoverflow' | 'twitter', string>;
 };
 
-export type WorkExperience = {
+export type WorkExperiences = {
   period: {
     from: string;
     to?: string;
@@ -22,7 +20,7 @@ export type WorkExperience = {
   responsibilities: string[];
 };
 
-export type Education = Record<
+export type Educations = Record<
   'degree' | 'date' | 'institution' | 'grade' | 'thesis',
   string
 >;
@@ -30,12 +28,7 @@ export type Education = Record<
 export type CurriculumVitae = {
   personalInformation: PersonalInformation;
   position: string;
-  workExperience: WorkExperience[];
-  education: Education[];
-  other_informatiion?: string[];
-};
-
-export type CVProviderProps = {
-  cv: CurriculumVitae;
-  children: React.ReactNode;
+  workExperience: WorkExperiences[];
+  education: Educations[];
+  additional_information?: string[];
 };

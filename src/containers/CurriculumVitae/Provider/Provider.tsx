@@ -1,7 +1,8 @@
 import createReactContext from 'create-react-context';
 import * as React from 'react';
 
-import { CurriculumVitae, CVProviderProps } from './types';
+import { CurriculumVitae } from '..';
+import { CVProviderProps } from './types';
 
 const CurriculumVitaeContext = createReactContext<CurriculumVitae>({} as any);
 

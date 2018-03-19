@@ -1,7 +1,7 @@
 import { mount } from 'enzyme';
 import * as React from 'react';
 
-import { CvConsumer, CvProvider } from './CV';
+import { CvConsumer, CvProvider } from './Provider';
 
 test('render provider', () => {
   const wrapper = mount(<CvProvider cv={{} as any}>child</CvProvider>);

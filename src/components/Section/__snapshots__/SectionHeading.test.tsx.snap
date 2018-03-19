@@ -13,9 +13,3 @@ exports[`render correct 1`] = `
   <SeactionHeadingBackground />
 </SeactionHeadingWrapper>
 `;
-
-exports[`render with caption 1`] = `
-<SeactionHeadingWrapper>
-  <SeactionHeadingBackground />
-</SeactionHeadingWrapper>
-`;
