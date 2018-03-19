@@ -2,6 +2,8 @@
 
 exports[`basline 1`] = `"1rem"`;
 
+exports[`basline 2`] = `"2rem"`;
+
 exports[`padding 1`] = `
 Object {
   "padding": "1rem",

@@ -2,7 +2,8 @@ import { theme } from '..';
 import { baseline, padding, space } from './space';
 
 test('basline', () => {
-  expect(baseline({ theme })).toMatchSnapshot();
+  expect(baseline(1)({ theme })).toMatchSnapshot();
+  expect(baseline(2)({ theme })).toMatchSnapshot();
 });
 
 test('padding', () => {

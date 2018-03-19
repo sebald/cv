@@ -13,7 +13,7 @@ export const Baseline = styled.div`
     rgba(255, 105, 180, 0.5),
     rgba(255, 105, 180, 0.5) 1px,
     transparent 1px,
-    transparent ${baseline}
+    transparent ${baseline(1)}
   );
 `;
 Baseline.displayName = 'Baseline';

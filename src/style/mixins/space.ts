@@ -14,7 +14,8 @@ import { getHtmlFontSize } from './typography';
 // ---------------
 const getBaseline = (props: ThemedStyledProps) => props.theme.space.baseline;
 
-export const baseline: StyledMixin = flow(getBaseline, pxToRem);
+export const baseline = (factor: number): StyledMixin =>
+  flow(getBaseline, x => x * factor, pxToRem);
 
 // Padding
 // ---------------
