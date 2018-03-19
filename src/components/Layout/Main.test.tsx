@@ -1,10 +1,9 @@
-import { shallow } from 'enzyme';
 import * as React from 'react';
 
-import { theme } from '../../style';
+import { shallowWithTheme } from '../../test.utils';
 import { Main } from './Main';
 
 test('render correctly', () => {
-  const wrapper = shallow(<Main theme={theme}>Text</Main>);
+  const wrapper = shallowWithTheme(<Main>Text</Main>);
   expect(wrapper).toMatchSnapshot();
 });

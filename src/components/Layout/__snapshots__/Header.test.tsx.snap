@@ -12,7 +12,12 @@ exports[`render correctly 1`] = `
     -ms-flex-order: 1;
     order: 1;
     width: 350px;
-    padding: 1rem 2rem 4rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    padding: 1rem 2rem;
   }
 }
 

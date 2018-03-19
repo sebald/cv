@@ -5,6 +5,5 @@ export const aside = css`
   ${padding(1, 1, 0)} ${media('small')`
     order: 1;
     width: ${props => px(props.theme.layout.sidebar)};
-    ${padding(1, 2, 4)}
   `};
 `;
