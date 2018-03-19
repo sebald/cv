@@ -1,3 +1,4 @@
 export default {
-  sidebar: 400,
+  sidebar: 350,
+  content: 800,
 };

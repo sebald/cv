@@ -3,8 +3,7 @@
 exports[`render correctly 1`] = `
 .c0 {
   width: 100%;
-  background: #fafafa;
-  padding: 1rem;
+  padding: 1rem 1rem 0rem;
 }
 
 @media (min-width:768px) {
@@ -12,7 +11,8 @@ exports[`render correctly 1`] = `
     -webkit-order: 1;
     -ms-flex-order: 1;
     order: 1;
-    width: 400px;
+    width: 350px;
+    padding: 1rem 2rem 4rem;
   }
 }
 
