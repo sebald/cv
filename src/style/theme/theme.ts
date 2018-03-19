@@ -1,3 +1,4 @@
+import background from './background';
 import breakpoints from './breakpoints';
 import layout from './layout';
 import palette from './palette';
@@ -5,6 +6,7 @@ import space from './space';
 import typography from './typography';
 
 const theme = {
+  background,
   breakpoints,
   layout,
   palette,

@@ -8,7 +8,7 @@ import { TypographyStyle } from './types';
 // Rhythm
 // ---------------
 const ratio = r.perfectFifth;
-const baseline = space.baseline * 2;
+const baseline = space.baseline;
 
 // Defaults
 // ---------------
@@ -28,18 +28,21 @@ const typography = createTypography({
   fontSize,
   htmlFontSize,
   ratio,
-  baseline,
+  baseline: baseline * 2,
 });
 const adjust = adjustBaseline(baseline);
+
+const baseFontSize = typography(0);
 
 // Styles
 // ---------------
 export const typeStyles: { [name in TypographyStyle]: CSSProperties } = {
   display: {
+    color: palette.grey['700'],
     ...typography(3),
     ...adjust(12),
     ...headingStyle,
-    fontWeight: 400,
+    fontWeight: 300,
     letterSpacing: px(-1),
   },
   heading: {
@@ -51,22 +54,23 @@ export const typeStyles: { [name in TypographyStyle]: CSSProperties } = {
   },
   subheading: {
     ...typography(1),
-    ...adjust(7, 0.5),
+    ...adjust(7),
     ...headingStyle,
-    fontWeight: 400,
+    fontWeight: 300,
     textTransform: 'uppercase',
   },
   caption: {
-    ...typography(0),
-    ...adjust(10),
+    fontSize: baseFontSize.fontSize,
+    lineHeight: baseFontSize.fontSize,
+    ...adjust(2),
     ...headingStyle,
-    color: palette.grey['500'],
+    color: palette.grey['400'],
     fontWeight: 300,
   },
   body: {
-    ...typography(0),
+    ...baseFontSize,
     ...adjust(10),
-    color: palette.grey['800'],
+    color: palette.grey['600'],
     fontFamily: fontFamily.body,
     fontWeight: 300,
   },
