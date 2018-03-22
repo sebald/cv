@@ -15,15 +15,6 @@ exports[`render correctly 1`] = `
   }
 }
 
-@media (min-width:768px) {
-  .c0 {
-    -webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-  }
-}
-
 <footer
   className="c0"
 >

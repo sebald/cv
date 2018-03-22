@@ -9,7 +9,7 @@ import * as CV from './containers/CurriculumVitae';
 export const App: React.SFC = () => (
   <Layout.Container>
     <Layout.Header>
-      <CV.Title />
+      <CV.Title image={require('./me.png')} />
     </Layout.Header>
     <Layout.Main>
       <Space my={1}>
