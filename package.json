@@ -37,6 +37,7 @@
   },
   "scripts": {
     "start": "parcel index.html --open",
+    "build": "parcel build index.html --public-url ./cv",
     "test": "jest --config jest.config.json",
     "coverage": "jest --config jest.config.json --coverage --coverageReporters html",
     "typecheck": "tsc --noEmit",
