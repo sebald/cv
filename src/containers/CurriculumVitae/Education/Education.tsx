@@ -2,7 +2,6 @@ import * as React from 'react';
 
 import { CvConsumer } from '..';
 import * as Section from '../../../components/Section';
-import { Text } from '../../../components/Typography';
 import { formatActivityAtLocation } from '../format';
 
 import { EducationProps } from './types';

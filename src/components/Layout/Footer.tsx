@@ -1,4 +1,4 @@
-import { media, styled } from '../../style';
+import { styled } from '../../style';
 import { aside } from './mixins';
 
 export const Footer = styled.footer`

@@ -1,7 +1,6 @@
 import * as React from 'react';
 
 import { CvConsumer } from '..';
-import * as List from '../../../components/List';
 import * as Section from '../../../components/Section';
 import { Text } from '../../../components/Typography';
 import { formatActivityAtLocation, formatPeriod } from '../format';
