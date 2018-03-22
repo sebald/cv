@@ -107,7 +107,7 @@ export const cv: CurriculumVitae = {
     },
   ],
   additional_information: [
-    'Organisator des "devsmeetup", monatliches Enwtwicklertreffen',
-    'Contributor `material-ui`',
+    'Organisator des Devsmeetup',
+    'Contributor Material-UI',
   ],
 };
