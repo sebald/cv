@@ -15,12 +15,8 @@ export const Education: React.SFC<EducationProps> = ({ className }) => (
           <Section.Item
             key={idx}
             title={formatActivityAtLocation(degree, institution)}
-            caption={date}
-          >
-            <Text>
-              Thesis: {thesis} ({grade})
-            </Text>
-          </Section.Item>
+            caption={`${date}, "${thesis}" (${grade})`}
+          />
         ))
       }
     </CvConsumer>

@@ -22,13 +22,7 @@ export const Work: React.SFC<WorkProps> = ({ className }) => (
               )}
               caption={formatPeriod(period.from, period.to)}
             >
-              <List.Unordered>
-                {responsibilities.map((r, i) => (
-                  <List.Item key={i}>
-                    <Text>{r}</Text>
-                  </List.Item>
-                ))}
-              </List.Unordered>
+              {responsibilities.map((r, i) => <Text key={i}>{r}</Text>)}
             </Section.Item>
           )
         )
