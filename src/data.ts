@@ -31,10 +31,8 @@ export const cv: CurriculumVitae = {
       },
       position: 'Software Entwickler',
       responsibilities: [
-        'Entwickeln einer GUI für eine neues Universal Dosimeter (React, TypeScript, Material-UI, Jest). Mitwirkung bei der Erstellung des Systemskonzepts mit der Hardware-Abteilung.',
-        'Entwickeln einer Software zur Fernsteuerung eines Wasser Phantoms (AngularJS, TypeScript, Redux, RxJS, http://www.beamscan.de). Erstellung eines Servers (NodeJS) zur Virtualisierung von Hardware.',
-        'Einführung eines agilen Entwicklungsprozesses (Jira, Bitbucket, Bamboo).',
-        'Entwickeln einer Software für QA Datenverwaltung (AngularJS, Bootstrap, http://www.ptw.de/3468.html). Optimieren und Vereinheitlichen von Build-Prozessen (npm, Gulp). Erstellen von automatisierten End-2-End Tests (Karma, Protractor).',
+        'Technische Projektleitung für die Entwicklung von web-basierten Software zur Steuerung medizinischer Geräte, sowie Erstellung von Systemkonzepten in Zusammenarbeit mit der Hardware-Abteilung. (TypeScript, React, Redux, RxJS, Jest, NodeJS, Express, Material-UI, ...)',
+        'Einführung eines agilen Entwicklungsprozesses (Jira, Bitbucket, Bamboo) und Optimierung von Build-Prozessen durch Vereinheitlichung der Build-Pipelines und Erstellung von automatisierten E2E-Tests (Karma, Protractor).',
       ],
     },
     {
@@ -48,11 +46,8 @@ export const cv: CurriculumVitae = {
       },
       position: 'Gründer & Software Entwickler',
       responsibilities: [
-        'Leitung Front-End-Entwicklung. Abstimmung mit Back-End-Entwicklung und Planung von neuen Funktionalitäten mit dem Projektmanagement und dem Universitätsklinikum Freiburg. Einarbeiten und Schulen neuer Mitarbeiter.',
-        'Neuentwicklung einer webbasierten CTx-Planungs- und Verwaltungssoftware (AngularJS, Sass)',
-        'Aufau eines agilen "DIN EN ISO 13485"-konformen Entwicklungsprozesses. Dokumentation von Anforderungen durch individuellen Static Site Generator (Jekyll). Zur Unterstützung agiler Entwicklung wurde ein eigenes Dashboard  entwickelt (github.com/mps-gmbh/ed, Angular und Github API).',
-        'Erstellen eines Corporate Designs und einer Komponenten-Bibliothek (Living Styleguide mit Sass, Bourbon, BEM, AngularJS).',
-        'Aufbau einer Testumgebung mit Karma und Protractor (Test-driven Development) sowie automatisierte Front-End-Builds mit Hilfe von Grunt, Bower und npm.',
+        'Leitung der FrontEnd-Entwicklung für die Neuentwicklung einer web-basierten CTx-Planungs- und Verwaltungssoftware in Zusammenarbeit mit dem Universitätsklinikum Freiburg (UKF). Einarbeitung und Schulen neuer Mitarbeiter, sowie Planung neuer Funktionalitäten in Absprache mit dem Projektmanagement und der UKF.',
+        'Umsetzen eines agilen, "DIN EN ISO 13485"-konformen Entwicklungsprozesses, erstellen eines Corporate Designs mit Hifle einer Komponenten-Bibliothek (Living Styleguide mit Sass, Bourbon, BEM, AngularJS) und Aufbau einer Testumgebung nach TDD-Prinzipien (Karma, Protractor, Buildbot, Github).',
       ],
     },
     {
@@ -62,25 +57,22 @@ export const cv: CurriculumVitae = {
       },
       position: 'Freelancer',
       responsibilities: [
-        'Erstellen von responsiven Webseiten mit Wordpress oder Typo3. Bei Wordpress Projekten wurde sowohl das Front- als auch das Back-End implementiert. TeamgrÃ¶ÃŸe 1-5.',
-        'Als Consultant tätig bei der Entwicklung Angular-basierter Enterprise Software. Zu den Aufgaben gehÃ¶rten die Einführung in Angular und Aufstellen von Best Practices.',
+        'Erstellen von responsiven Webseiten mit Wordpress und Typo3. Bei Wordpress Projekten wurde FrontEnd und BackEnd implementiert.',
+        'Berater für die Entwicklung Angular-basierter Software. Zu den Aufgaben gehörte das Einlernen in Angualr und das Aufstellen von Best Practices.',
       ],
     },
-    /**
     {
       period: {
         from: '2009-10',
         to: '2012-07',
       },
       company: {
-        name: 'Imtek CPI, Albert-Ludwigs-Universität Freiburg',
+        name: 'CPI, Imtek',
       },
       position: 'IT-Support',
       responsibilities: [
-        'Verwaltung und Wartung von ca. 60 Arbeitsplatzrechnern (Windows NT/XP/7, Ubuntu) und zwei Servern (nginx).',
-        'Aufbau eines Ticketing-Systems zur effizienten Bearbeitung technischer Probleme.',
-        'Einführung einer zentralen Versionsverwaltung von Forschungsdokumenten (SVN).',
-        'Entwickeln einer PHP-basierten SoftwarelÃ¶sung zur Bestellung von Labormaterialien (Boostrap, jQuery, CodeIgniter, MySQL, github.com/sebald/Ordr/).',
+        'Verwaltung und Wartung von ca. 60 Arbeitsplatzrechnern (Windows NT/XP/7, Ubuntu) und zwei Servern (nginx). Zur effizienteren Bearbeitung von technischen Problemen wurde ein Ticketing-System eingeführt.',
+        'Entwickeln einer PHP-basierten Software zur Bestellung von Labormaterialen (Boostrap, jQuery, CodeIgniter, MySQL).',
       ],
     },
     {
@@ -89,16 +81,13 @@ export const cv: CurriculumVitae = {
         to: '2012-07',
       },
       company: {
-        name: 'IIG, Abteilung Telematik, Albert-Ludwigs-Universität Freiburg',
+        name: 'IIG, Abt. Telematik',
       },
       position: 'Wissenschaftliche Hilfskraft',
       responsibilities: [
-        'Mitarbeit am Projekt "Insel 2" (Schutz der Privatsphäre im Bereich von Pflegediensten, DFG gefÃ¶rdert). Entwicklung eines Modells zum Schutz sensibler Daten, wenn diese zentral gespeichert werden. Proof-of-Concept-Implementierung durch ein Firefox AddOn.',
-        'Mitarbeit am Projekt "Premium Services" (Marktplatz für Web Services, BMBF-gefÃ¶rdert). Umsetzung eines Web Services (Java, SOAP) zur Berechnung des monetären Kundenwerts und Implementierung einer webbasierte Benutzeroberfläche dieses Services (PHP, Javascript).',
-        'Entwicklung eines Petri-Netz-Editors und zugehÃ¶rigem Analyse-Tools (Eclipse RPC und GEF). Ãœbernahme der Projektleitung, nachdem der zuständige Doktorat das Institut verlassen hat.',
+        'Mitarbeit in DFG- und BMBF-Projekten. Innerhalb der Projekte wurde unter anderem ein SOAP-WebService zur Berechnung des monetären Kundenwerts und ein Petri-Netz-Editor (Eclipse RPC/GEF) entwickelt.',
       ],
     },
-     */
   ],
   education: [
     {
@@ -118,7 +107,7 @@ export const cv: CurriculumVitae = {
     },
   ],
   additional_information: [
-    'Organisator "devsmeetup". Monatliches Treen von Entwicklern aus der Region Freiburg (devsmeetup.de).',
-    'Contributer Material-UI',
+    'Organisator des "devsmeetup", monatliches Enwtwicklertreffen',
+    'Contributor `material-ui`',
   ],
 };
