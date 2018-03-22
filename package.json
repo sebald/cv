@@ -2,7 +2,7 @@
   "name": "site",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "repository": "git@bitbucket.org:sebald/site.git",
   "author": "Sebastian Sebald <sebastian.sebald@gmail.com>",
   "license": "MIT",
