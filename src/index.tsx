@@ -4,8 +4,11 @@ import { render } from 'react-dom';
 import { App } from './App';
 import { CvProvider } from './containers/CurriculumVitae';
 
+import { info } from './console';
 import { cv } from './data';
 import { injectGlobal, theme, ThemeProvider } from './style';
+
+info();
 
 injectGlobal`
   *,
