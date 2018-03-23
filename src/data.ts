@@ -31,7 +31,7 @@ export const cv: CurriculumVitae = {
       },
       position: 'Software Entwickler',
       responsibilities: [
-        'Technische Projektleitung für die Entwicklung von web-basierten Software zur Steuerung medizinischer Geräte, sowie Erstellung von Systemkonzepten in Zusammenarbeit mit der Hardware-Abteilung. (TypeScript, React, Redux, RxJS, Jest, NodeJS, Express, Material-UI, ...)',
+        'Technische Projektleitung für die Entwicklung web-basierter Software zur Steuerung medizinischer Geräte, sowie Erstellung von Systemkonzepten in Zusammenarbeit mit der Hardware-Entwicklung. (TypeScript, React, Redux, RxJS, Jest, NodeJS, Express, Material-UI, ...)',
         'Einführung eines agilen Entwicklungsprozesses (Jira, Bitbucket, Bamboo) und Optimierung von Build-Prozessen durch Vereinheitlichung der Build-Pipelines und Erstellung von automatisierten E2E-Tests (Karma, Protractor).',
       ],
     },
@@ -58,7 +58,7 @@ export const cv: CurriculumVitae = {
       position: 'Freelancer',
       responsibilities: [
         'Erstellen von responsiven Webseiten mit Wordpress und Typo3. Bei Wordpress Projekten wurde FrontEnd und BackEnd implementiert.',
-        'Berater für die Entwicklung Angular-basierter Software. Zu den Aufgaben gehörte das Einlernen in Angualr und das Aufstellen von Best Practices.',
+        'Berater für die Entwicklung AngularJS-basierter Software. Zu den Aufgaben gehörte das Einlernen in Angualr und das Aufstellen von Best Practices.',
       ],
     },
     {
@@ -108,6 +108,7 @@ export const cv: CurriculumVitae = {
   ],
   additional_information: [
     'Organisator des Devsmeetup',
+    'Teilnahme an der "Angular Master Class"',
     'Contributor Material-UI',
   ],
 };
