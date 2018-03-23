@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render children 1`] = `
+<styled.section>
+  <Component>
+    Title
+  </Component>
+  child
+</styled.section>
+`;
+
+exports[`render correct 1`] = `
+<styled.section>
+  <Component>
+    Title
+  </Component>
+</styled.section>
+`;

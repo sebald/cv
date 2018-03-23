@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render children 1`] = `
+<SeactionHeadingWrapper>
+  <SeactionHeadingBackground>
+    child
+  </SeactionHeadingBackground>
+</SeactionHeadingWrapper>
+`;
+
+exports[`render correct 1`] = `
+<SeactionHeadingWrapper>
+  <SeactionHeadingBackground />
+</SeactionHeadingWrapper>
+`;

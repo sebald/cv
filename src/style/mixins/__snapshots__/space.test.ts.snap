@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basline 1`] = `"1rem"`;
+
+exports[`basline 2`] = `"2rem"`;
+
+exports[`padding 1`] = `
+Object {
+  "padding": "1rem",
+}
+`;
+
+exports[`padding 2`] = `
+Object {
+  "padding": "1rem 1rem 1rem 1rem",
+}
+`;
+
+exports[`padding 3`] = `
+Object {
+  "padding": "1rem 2rem",
+}
+`;
+
+exports[`padding 4`] = `
+Object {
+  "padding": "1rem 1rem 2rem",
+}
+`;
+
+exports[`padding 5`] = `
+Object {
+  "padding": "1rem 1rem 2rem 3rem",
+}
+`;
+
+exports[`spacing 1`] = `
+Object {
+  "marginLeft": "1rem",
+  "marginRight": "1rem",
+}
+`;
+
+exports[`spacing 2`] = `
+Object {
+  "marginBottom": "1rem",
+  "marginTop": "1rem",
+}
+`;
+
+exports[`spacing 3`] = `
+Object {
+  "marginBottom": "1rem",
+  "marginLeft": "2rem",
+  "marginRight": "2rem",
+  "marginTop": "1rem",
+}
+`;
+
+exports[`spacing 4`] = `
+Object {
+  "margin": "2rem",
+}
+`;
+
+exports[`spacing 5`] = `
+Object {
+  "margin": "2rem",
+  "marginLeft": "1rem",
+  "marginRight": "1rem",
+}
+`;
+
+exports[`spacing 6`] = `
+Object {
+  "margin": "3rem",
+  "marginBottom": "2rem",
+  "marginLeft": "1rem",
+  "marginRight": "1rem",
+  "marginTop": "2rem",
+}
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render consumer 1`] = `
+Array [
+  Array [
+    Object {
+      "foo": "bar",
+    },
+  ],
+]
+`;
+
+exports[`render provider 1`] = `
+<Component
+  cv={Object {}}
+>
+  <Provider
+    value={Object {}}
+  >
+    child
+  </Provider>
+</Component>
+`;

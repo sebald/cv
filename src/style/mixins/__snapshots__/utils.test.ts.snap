@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`prop or empty 1`] = `Object {}`;
+
+exports[`prop or empty 2`] = `
+Object {
+  "foo": "bar",
+}
+`;
+
+exports[`prop or empty 3`] = `Object {}`;

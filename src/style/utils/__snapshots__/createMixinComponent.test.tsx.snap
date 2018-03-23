@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`apply to all children 1`] = `
+.c0 {
+  font-size: normal;
+}
+
+<Styled(StyledChildren)>
+  <StyledChildren
+    className="c0"
+  >
+    <Child
+      className="c0"
+      key=".0"
+    >
+      <div
+        className="c0"
+      />
+    </Child>
+    <div
+      className="c0"
+      key=".1"
+    />
+    <span
+      className="c0"
+      key=".2"
+    />
+  </StyledChildren>
+</Styled(StyledChildren)>
+`;
+
+exports[`create a dynamic mixin component 1`] = `
+.c0 {
+  width: 100px;
+}
+
+<Styled(StyledChildren)
+  width={100}
+>
+  <StyledChildren
+    className="c0"
+    width={100}
+  >
+    <Child
+      className="c0"
+      key=".0"
+    >
+      <div
+        className="c0"
+      />
+    </Child>
+  </StyledChildren>
+</Styled(StyledChildren)>
+`;
+
+exports[`create a mixin component 1`] = `
+.c0 {
+  font-size: normal;
+}
+
+<Styled(StyledChildren)>
+  <StyledChildren
+    className="c0"
+  >
+    <Child
+      className="c0"
+      key=".0"
+    >
+      <div
+        className="c0"
+      />
+    </Child>
+  </StyledChildren>
+</Styled(StyledChildren)>
+`;
+
+exports[`merge classnames 1`] = `
+.c0 {
+  font-size: normal;
+}
+
+<Styled(StyledChildren)
+  className="custom-name"
+>
+  <StyledChildren
+    className="custom-name c0"
+  >
+    <Child
+      className="custom-name c0"
+      key=".0"
+    >
+      <div
+        className="custom-name c0"
+      />
+    </Child>
+  </StyledChildren>
+</Styled(StyledChildren)>
+`;
+
+exports[`multiple mixins 1`] = `
+.c0 {
+  font-size: normal;
+  width: 55px;
+}
+
+<Styled(StyledChildren)
+  width={55}
+>
+  <StyledChildren
+    className="c0"
+    width={55}
+  >
+    <Child
+      className="c0"
+      key=".0"
+    >
+      <div
+        className="c0"
+      />
+    </Child>
+  </StyledChildren>
+</Styled(StyledChildren)>
+`;

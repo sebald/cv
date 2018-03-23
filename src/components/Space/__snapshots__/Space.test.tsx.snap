@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`add "spacing" classNames to children 1`] = `
+.c0 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+<Styled(StyledChildren)
+  mx={1}
+  my={2}
+>
+  <StyledChildren
+    className="c0"
+    mx={1}
+    my={2}
+  >
+    <div
+      className="c0"
+      key=".0"
+    >
+      Hello
+    </div>
+    <h2
+      className="c0"
+      key=".1"
+    >
+      there
+    </h2>
+  </StyledChildren>
+</Styled(StyledChildren)>
+`;
+
+exports[`render correctly 1`] = `
+<Styled(StyledChildren)>
+  <StyledChildren
+    className=""
+  />
+</Styled(StyledChildren)>
+`;
