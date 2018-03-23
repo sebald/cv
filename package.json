@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.ts",
-  "repository": "git@bitbucket.org:sebald/site.git",
+  "repository": "git+https://github.com/sebald/cv.git",
   "author": "Sebastian Sebald <sebastian.sebald@gmail.com>",
   "license": "MIT",
   "private": true,
