@@ -4,6 +4,8 @@
     "class-name": true,
     "forin": true,
     "interface-name": [true, "never-prefix"],
+    "jsx-boolean-value": false,
+    "jsx-no-lambda": false,
     "no-construct": true,
     "no-duplicate-super": true,
     "no-duplicate-switch-case": true,
