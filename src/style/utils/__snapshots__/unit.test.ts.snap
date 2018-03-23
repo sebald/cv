@@ -1,5 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`ensure value is duration 1`] = `"100ms"`;
+
+exports[`ensure value is duration 2`] = `"2s"`;
+
 exports[`ensure value is px (custom base font size) 1`] = `16`;
 
 exports[`ensure value is px (custom base font size) 2`] = `20`;

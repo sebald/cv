@@ -12,3 +12,6 @@ export const ensurePx = (
   value: number | string,
   base = DEFAULT_HTML_FONT_SIZE
 ) => (typeof value === 'string' ? remToPx(value, base) : value);
+
+export const ensureDuration = (value: number | string) =>
+  typeof value === 'string' ? value : `${value}ms`;

@@ -1,4 +1,4 @@
-import { ensurePx, px, pxToRem, remToPx } from './unit';
+import { ensureDuration, ensurePx, px, pxToRem, remToPx } from './unit';
 
 test('px', () => {
   expect(px(16)).toMatchSnapshot();
@@ -46,4 +46,9 @@ test('ensure value is px (custom base font size)', () => {
   expect(ensurePx('1rem', 20)).toMatchSnapshot();
   expect(ensurePx(20, 12)).toMatchSnapshot();
   expect(ensurePx('1.25rem', 30)).toMatchSnapshot();
+});
+
+test('ensure value is duration', () => {
+  expect(ensureDuration(100)).toMatchSnapshot();
+  expect(ensureDuration('2s')).toMatchSnapshot();
 });
