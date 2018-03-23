@@ -9,7 +9,7 @@ cache:
   directories:
   - node_modules
 script:
-  - yarn test
+  - yarn test --runInBand
   - yarn typecheck
   - yarn build
 deploy:
