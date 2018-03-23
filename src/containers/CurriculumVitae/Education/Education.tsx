@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { CvConsumer } from '..';
 import * as Section from '../../../components/Section';
-import { formatActivityAtLocation } from '../format';
+import { formatActivityAtLocation, formatDateString } from '../format';
 
 import { EducationProps } from './types';
 
@@ -14,7 +14,7 @@ export const Education: React.SFC<EducationProps> = ({ className }) => (
           <Section.Item
             key={idx}
             title={formatActivityAtLocation(degree, institution)}
-            caption={`${date}, "${thesis}" (${grade})`}
+            caption={`${formatDateString(date)}, "${thesis}" (${grade})`}
           />
         ))
       }
