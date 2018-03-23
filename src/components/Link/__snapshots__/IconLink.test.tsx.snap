@@ -16,6 +16,9 @@ exports[`render correct 1`] = `
   className="c0"
   theme={
     Object {
+      "animation": Object {
+        "fadeInUp": "eqHJzO",
+      },
       "background": Object {
         "body": "#fff",
       },
