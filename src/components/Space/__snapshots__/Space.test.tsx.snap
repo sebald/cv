@@ -1,18 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`render children 1`] = `
-<Styled(StyledChildren)>
+exports[`add "spacing" classNames to children 1`] = `
+.c0 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+<Styled(StyledChildren)
+  mx={1}
+  my={2}
+>
   <StyledChildren
-    className=""
+    className="c0"
+    mx={1}
+    my={2}
   >
     <div
-      className=""
+      className="c0"
       key=".0"
     >
       Hello
     </div>
     <h2
-      className=""
+      className="c0"
       key=".1"
     >
       there

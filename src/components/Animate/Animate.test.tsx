@@ -1,19 +1,19 @@
 import * as React from 'react';
 
 import { mountWithTheme } from '../../test.utils';
-import { Space } from './Space';
+import { Animate } from './Animate';
 
 test('render correctly', () => {
-  const wrapper = mountWithTheme(<Space />);
+  const wrapper = mountWithTheme(<Animate animation="fadeInUp" />);
   expect(wrapper).toMatchSnapshot();
 });
 
-test('add "spacing" classNames to children', () => {
+test('add animation to children', () => {
   const wrapper = mountWithTheme(
-    <Space my={2} mx={1}>
+    <Animate animation="fadeInUp" duration={1000}>
       <div>Hello</div>
       <h2>there</h2>
-    </Space>
+    </Animate>
   );
   expect(wrapper).toMatchSnapshot();
 });

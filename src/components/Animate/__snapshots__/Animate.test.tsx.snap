@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`add animation to children 1`] = `
+.c0 {
+  -webkit-animation: eqHJzO 1000ms cubic-bezier(0.4,0.0,0.2,1) 0ms;
+  animation: eqHJzO 1000ms cubic-bezier(0.4,0.0,0.2,1) 0ms;
+}
+
+<Styled(StyledChildren)
+  animation="fadeInUp"
+  duration={1000}
+>
+  <StyledChildren
+    animation="fadeInUp"
+    className="c0"
+    duration={1000}
+  >
+    <div
+      className="c0"
+      key=".0"
+    >
+      Hello
+    </div>
+    <h2
+      className="c0"
+      key=".1"
+    >
+      there
+    </h2>
+  </StyledChildren>
+</Styled(StyledChildren)>
+`;
+
+exports[`render correctly 1`] = `
+.c0 {
+  -webkit-animation: eqHJzO 250ms cubic-bezier(0.4,0.0,0.2,1) 0ms;
+  animation: eqHJzO 250ms cubic-bezier(0.4,0.0,0.2,1) 0ms;
+}
+
+<Styled(StyledChildren)
+  animation="fadeInUp"
+>
+  <StyledChildren
+    animation="fadeInUp"
+    className="c0"
+  />
+</Styled(StyledChildren)>
+`;

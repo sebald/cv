@@ -18,3 +18,7 @@ export type LineHeightConfig = {
 };
 
 export type TypographyConfig = ScaleConfig & LineHeightConfig;
+
+export type WithClassName = {
+  className?: string;
+};
