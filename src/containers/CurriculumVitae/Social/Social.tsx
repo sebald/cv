@@ -11,6 +11,10 @@ const SocialIconList = styled.div`
   justify-content: space-evenly;
 
   ${padding(1, 0)};
+
+  @media print {
+    display: none;
+  }
 `;
 SocialIconList.displayName = 'SocialIconList';
 
