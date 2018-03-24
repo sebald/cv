@@ -17,6 +17,7 @@ export type ThemedInterpolationFunction<P = {}> = Styled.InterpolationFunction<
 >;
 
 export type StyledMixin<P = {}> = ThemedInterpolationFunction<P>;
+export type InterpolationFunction<P = {}> = Styled.InterpolationFunction<P>;
 
 // Theme Props
 // ---------------

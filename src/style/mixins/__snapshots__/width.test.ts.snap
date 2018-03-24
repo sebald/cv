@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with mixin 1`] = `
+Object {
+  "width": "50%",
+}
+`;
+
+exports[`with mixin 2`] = `
+Object {
+  "width": "25%",
+}
+`;
+
+exports[`with mixin 3`] = `
+Object {
+  "width": "100%",
+}
+`;
+
+exports[`with mixin 4`] = `
+Object {
+  "width": "100px",
+}
+`;
+
+exports[`with mixin 5`] = `
+Object {
+  "width": "800px",
+}
+`;
