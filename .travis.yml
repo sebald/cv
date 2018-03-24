@@ -11,11 +11,12 @@ cache:
 script:
   - yarn test --runInBand
   - yarn typecheck
-  - yarn build
+  - yarn build -d release --public-url ./cv
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   keep-history: true
+  local-dir: release
   on:
     branch: master
