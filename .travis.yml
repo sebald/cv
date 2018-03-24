@@ -11,7 +11,7 @@ cache:
 script:
   - yarn test --runInBand
   - yarn typecheck
-  - yarn build -d release --public-url ./cv
+  - yarn build -d release --public-url ./
 deploy:
   provider: pages
   skip-cleanup: true
