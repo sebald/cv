@@ -2,7 +2,9 @@ export type PersonalInformation = {
   firstName: string;
   lastName: string;
   birthdate: string;
-  contact: Record<'street' | 'zip' | 'city' | 'phone' | 'email', string>;
+  contact: Record<'street' | 'zip' | 'city' | 'email', string> & {
+    phone?: string;
+  };
   spokenLanguages: string[];
   social: Record<'github' | 'stackoverflow' | 'twitter', string>;
 };

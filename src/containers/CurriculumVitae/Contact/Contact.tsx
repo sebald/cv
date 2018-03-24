@@ -20,8 +20,12 @@ export const Contact: React.SFC = () => (
         </CenteredText>
         <CenteredText>
           {contact.email}
-          <br />
-          {contact.phone}
+          {contact.phone && (
+            <>
+              <br />
+              {contact.phone}
+            </>
+          )}
         </CenteredText>
       </Infobox>
     )}

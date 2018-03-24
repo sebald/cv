@@ -8,7 +8,6 @@ export const cv: CurriculumVitae = {
       street: 'Neumatten 4',
       zip: '79232',
       city: 'March',
-      phone: '0761 / 12 345 678',
       email: 'sebastian.sebald@gmail.com',
     },
     birthdate: '1984-07-24',
