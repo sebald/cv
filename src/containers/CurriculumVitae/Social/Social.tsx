@@ -6,22 +6,24 @@ import { Infobox } from '../../../components/Infobox';
 import { IconLink } from '../../../components/Link';
 import { padding, styled } from '../../../style';
 
+const SocialInfobox = styled(Infobox)`
+  @media print {
+    display: none;
+  }
+`;
+
 const SocialIconList = styled.div`
   display: flex;
   justify-content: space-evenly;
 
   ${padding(1, 0)};
-
-  @media print {
-    display: none;
-  }
 `;
 SocialIconList.displayName = 'SocialIconList';
 
 export const Social: React.SFC = () => (
   <CvConsumer>
     {({ personalInformation: { social } }) => (
-      <Infobox title="Social">
+      <SocialInfobox title="Social">
         <SocialIconList>
           <IconLink href={`https://github.com/${social.github}`}>
             <Github />
@@ -35,7 +37,7 @@ export const Social: React.SFC = () => (
             <StackOverflow />
           </IconLink>
         </SocialIconList>
-      </Infobox>
+      </SocialInfobox>
     )}
   </CvConsumer>
 );

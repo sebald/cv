@@ -30,6 +30,12 @@ injectGlobal`
   path {
     fill: currentColor;
   }
+
+  @media print{
+    html {
+      font-size: 80%;
+    }
+  }
 `;
 
 render(

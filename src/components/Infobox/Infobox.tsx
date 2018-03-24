@@ -9,8 +9,12 @@ const InfoboxWrapper = styled.div`
   ${padding(0, 0, 2)};
 `;
 
-export const Infobox: React.SFC<InfoboxProps> = ({ title, children }) => (
-  <InfoboxWrapper>
+export const Infobox: React.SFC<InfoboxProps> = ({
+  className,
+  title,
+  children,
+}) => (
+  <InfoboxWrapper className={className}>
     <Subheading textAlign="center" fontWeight={500}>
       {title}
     </Subheading>
