@@ -1,4 +1,4 @@
-import { propOrEmpty } from './utils';
+import { propOrEmpty } from './interpolation';
 
 test('prop or empty', () => {
   const fooOrEmpty = propOrEmpty('foo');

@@ -1,5 +1,5 @@
 import { StyledMixin, ThemedStyledProps, TypographyStyle } from '../theme';
-import { propOrEmpty } from './utils';
+import { propOrEmpty } from '../utils';
 
 export const getHtmlFontSize = (props: ThemedStyledProps) =>
   props.theme.typography.htmlFontSize;
