@@ -2,13 +2,11 @@
 
 This repo is just me trying out some libaries and technologies. Doing a CV with them might not be the beast idea ever 😅
 
-## Libs under investigation
+## Under investigation
 
 - [parceljs](https://parceljs.org/)
 - [styled-components](styled-components.com)
 - [React's new context API](https://medium.com/dailyjs/reacts-%EF%B8%8F-new-context-api-70c9fe01596b)
-
-- [... and some more](https://github.com/sebald/cv/issues)
 
 ## "Features"
 
