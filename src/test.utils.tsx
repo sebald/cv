@@ -19,7 +19,8 @@ export function mountWithTheme<P>(
   node: React.ReactElement<P>,
   theme: any = style.theme
 ) {
-  return mount(<ThemeProvider theme={theme}>{node}</ThemeProvider>)
-    .children()
-    .first();
+  const context = (shallow(
+    <ThemeProvider theme={theme} />
+  ).instance() as any).getChildContext();
+  return mount(node, { context });
 }
