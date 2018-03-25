@@ -17,8 +17,9 @@ export const animation: StyledMixin<Animation> = ({
   duration = 250,
   easing = 'standard',
   delay = 0,
+  mode = 'none',
 }) => ({
   animation: `${theme.animation[name]} ${ensureDuration(duration)} ${
     curve[easing]
-  } ${ensureDuration(delay)}`,
+  } ${ensureDuration(delay)} ${mode}`,
 });

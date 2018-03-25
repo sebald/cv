@@ -8,4 +8,5 @@ test('animation', () => {
     animation({ theme, animation: 'fadeInUp', duration: 200, easing: 'sharp' })
   );
   expect(animation({ theme, animation: 'fadeInUp', delay: 10 }));
+  expect(animation({ theme, animation: 'fadeInUp', mode: 'forwards' }));
 });

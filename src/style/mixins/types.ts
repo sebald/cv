@@ -12,4 +12,5 @@ export type Animation = {
   duration?: number;
   easing?: keyof typeof curve;
   delay?: number;
+  mode?: 'none' | 'forwards' | 'backwards' | 'both';
 };
