@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+.c0 {
+  border: 0;
+  margin: 0 auto;
+  height: 1px;
+  background: #e0e0e0;
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+}
+
+<styled.hr>
+  <hr
+    className="c0"
+  />
+</styled.hr>
+`;
