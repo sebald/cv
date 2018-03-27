@@ -30,7 +30,7 @@ export const cv: CurriculumVitae = {
       },
       position: 'Software Entwickler',
       responsibilities: [
-        'Technische Projektleitung für die Entwicklung web-basierter Software zur Steuerung medizinischer Geräte, sowie Erstellung von Systemkonzepten in Zusammenarbeit mit der Hardware-Entwicklung. (TypeScript, React, Redux, RxJS, Jest, NodeJS, Express, Material-UI, ...)',
+        'Technische Projektleitung für die Entwicklung web-basierter Software zur Steuerung medizinischer Geräte sowie Erstellung von Systemkonzepten in Zusammenarbeit mit der Hardware-Entwicklung (TypeScript, React, Redux, RxJS, Jest, NodeJS, Express, Material-UI).',
         'Einführung eines agilen Entwicklungsprozesses (Jira, Bitbucket, Bamboo) und Optimierung von Build-Prozessen durch Vereinheitlichung der Build-Pipelines und Erstellung von automatisierten E2E-Tests (Karma, Protractor).',
       ],
     },
@@ -45,8 +45,8 @@ export const cv: CurriculumVitae = {
       },
       position: 'Gründer & Software Entwickler',
       responsibilities: [
-        'Leitung der FrontEnd-Entwicklung für die Neuentwicklung einer web-basierten CTx-Planungs- und Verwaltungssoftware in Zusammenarbeit mit dem Universitätsklinikum Freiburg (UKF). Einarbeitung und Schulen neuer Mitarbeiter, sowie Planung neuer Funktionalitäten in Absprache mit dem Projektmanagement und der UKF.',
-        'Umsetzen eines agilen, "DIN EN ISO 13485"-konformen Entwicklungsprozesses, erstellen eines Corporate Designs mit Hifle einer Komponenten-Bibliothek (Living Styleguide mit Sass, Bourbon, BEM, AngularJS) und Aufbau einer Testumgebung nach TDD-Prinzipien (Karma, Protractor, Buildbot, Github).',
+        'Leitung der FrontEnd-Entwicklung für die Neuentwicklung einer web-basierten CTx-Planungs- und Verwaltungssoftware in Zusammenarbeit mit dem Universitätsklinikum Freiburg (UKF). Einarbeitung und Schulen neuer Mitarbeiter sowie Planung neuer Funktionalitäten in Absprache mit dem Projektmanagement und der UKF.',
+        'Umsetzen eines agilen, "DIN EN ISO 13485"-konformen Entwicklungsprozesses, Erstellen eines Corporate Designs mit Hilfe einer Komponenten-Bibliothek (Living Styleguide mit Sass, Bourbon, BEM, AngularJS) und Aufbau einer Testumgebung nach TDD-Prinzipien (Karma, Protractor, Buildbot, Github).',
       ],
     },
     {
@@ -56,8 +56,8 @@ export const cv: CurriculumVitae = {
       },
       position: 'Freelancer',
       responsibilities: [
-        'Erstellen von responsiven Webseiten mit Wordpress und Typo3. Bei Wordpress Projekten wurde FrontEnd und BackEnd implementiert.',
-        'Berater für die Entwicklung AngularJS-basierter Software. Zu den Aufgaben gehörte das Einlernen in Angualr und das Aufstellen von Best Practices.',
+        'Erstellen von responsiven Webseiten mit Wordpress und Typo3. Bei Wordpress Projekten wurden FrontEnd und BackEnd implementiert.',
+        'Berater für die Entwicklung AngularJS-basierter Software. Zu den Aufgaben gehörte das Einlernen in AngularJS und das Aufstellen von Best Practices.',
       ],
     },
     {
@@ -70,8 +70,8 @@ export const cv: CurriculumVitae = {
       },
       position: 'IT-Support',
       responsibilities: [
-        'Verwaltung und Wartung von ca. 60 Arbeitsplatzrechnern (Windows NT/XP/7, Ubuntu) und zwei Servern (nginx). Zur effizienteren Bearbeitung von technischen Problemen wurde ein Ticketing-System eingeführt.',
-        'Entwickeln einer PHP-basierten Software zur Bestellung von Labormaterialen (Boostrap, jQuery, CodeIgniter, MySQL).',
+        'Verwaltung und Wartung von ca. 60 Arbeitsplatzrechnern (Windows NT/XP/7, Ubuntu) und zwei Servern (nginx). Einführung eines Ticketing-Systems zur effizienten Bearbeitung von technischen Problemen.',
+        'Entwickeln einer PHP-basierten Software zur Bestellung von Labormaterialien (Boostrap, jQuery, CodeIgniter, MySQL).',
       ],
     },
     {
