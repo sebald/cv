@@ -1,6 +1,6 @@
 # CV
 
-This repo is just me trying out some libaries and technologies. Doing a CV with them might not be the beast idea ever 😅
+What started as an evening activity to try out some libraries ended up me creating my CV with web technologies. While this might be a bit over-engineered, the web is still one of the better layouting technolgies.
 
 ## Under investigation
 
