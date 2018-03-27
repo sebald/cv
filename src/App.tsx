@@ -8,6 +8,8 @@ import { Space } from './components/Space';
 import * as CV from './containers/CurriculumVitae';
 import { Animation } from './style';
 
+import image from './me.png';
+
 const animation: Animation = {
   animation: 'fadeInUp',
   duration: 600,
@@ -19,7 +21,7 @@ export const App: React.SFC = () => (
   <Layout.Container>
     <Animate {...animation} delay={100}>
       <Layout.Header>
-        <CV.Title image={require('./me.png')} />
+        <CV.Title image={image} />
       </Layout.Header>
     </Animate>
     <Animate {...animation} delay={200}>
