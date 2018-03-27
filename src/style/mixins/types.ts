@@ -1,6 +1,8 @@
 import { Theme } from '../theme';
 import { curve } from './animation';
 
+export type MediaType = 'all' | 'screen' | 'print';
+
 export type Spacing = {
   m?: number;
   mx?: number;

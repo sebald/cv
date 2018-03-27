@@ -15,3 +15,11 @@ test('media', () => {
   const wrapper = shallow(<Component theme={theme} />);
   expect(wrapper).toMatchSnapshot();
 });
+
+test('media with media type', () => {
+  const Component = styled('div')`
+    ${media('medium', 'screen')`color: red;`};
+  `;
+  const wrapper = shallow(<Component theme={theme} />);
+  expect(wrapper).toMatchSnapshot();
+});

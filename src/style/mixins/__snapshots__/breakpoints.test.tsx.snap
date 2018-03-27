@@ -9,7 +9,19 @@ Object {
 `;
 
 exports[`media 1`] = `
-@media (min-width:768px) {
+@media all and (min-width:768px) {
+  .c0 {
+    color: red;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`media with media type 1`] = `
+@media screen and (min-width:1024px) {
   .c0 {
     color: red;
   }

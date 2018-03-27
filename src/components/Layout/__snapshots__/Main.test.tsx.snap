@@ -2,8 +2,8 @@
 
 exports[`render correctly 1`] = `
 <MainWrapper>
-  <styled.div>
+  <MainContent>
     Text
-  </styled.div>
+  </MainContent>
 </MainWrapper>
 `;

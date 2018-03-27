@@ -6,4 +6,9 @@ export const aside = css`
     order: 1;
     width: ${props => px(props.theme.layout.sidebar)};
   `};
+
+  @media print {
+    width: 50%;
+    ${padding(0)};
+  }
 `;

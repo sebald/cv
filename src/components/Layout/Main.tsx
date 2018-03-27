@@ -6,13 +6,17 @@ const MainWrapper = styled.main`
   width: 100%;
   flex: 1;
 
-  ${media('small')`
+  ${media('small', 'screen')`
     flex-basis: 100%;
     order: 2;
     width: calc(100% - ${props => `${props.theme.layout.sidebar}px`});
-    
+
     border-left: 1px solid ${color(palette => palette.grey['100'])};
   `};
+
+  @media print {
+    order: 1;
+  }
 `;
 MainWrapper.displayName = 'MainWrapper';
 
@@ -23,7 +27,12 @@ const MainContent = styled.div`
     height: 100vh;
     overflow-y: scroll;
   `};
+
+  @media print {
+    ${padding(1, 0)};
+  }
 `;
+MainContent.displayName = 'MainContent';
 
 export const Main: React.SFC<MainProps> = ({ className, children }) => (
   <MainWrapper className={className}>

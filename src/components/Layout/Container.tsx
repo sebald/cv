@@ -10,4 +10,9 @@ export const Container = styled.div`
   ${media('small')`
     flex-wrap: wrap;
   `};
+
+  @media print {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 `;

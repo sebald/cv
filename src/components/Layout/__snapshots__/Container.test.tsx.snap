@@ -13,8 +13,19 @@ exports[`render correctly 1`] = `
   width: 100%;
 }
 
-@media (min-width:768px) {
+@media all and (min-width:768px) {
   .c0 {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+@media print {
+  .c0 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;

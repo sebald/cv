@@ -31,6 +31,11 @@ injectGlobal`
     fill: currentColor;
   }
 
+  @page {
+    size: A4;
+    margin: 1cm 2cm;
+  }
+
   @media print{
     html {
       font-size: 80%;
