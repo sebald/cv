@@ -10,7 +10,7 @@ export const TitleImage = styled.img`
 
   margin: 0 auto;
 
-  @media (min-height: 800px) {
+  @media screen and (min-height: 800px) {
     display: block;
   }
 `;

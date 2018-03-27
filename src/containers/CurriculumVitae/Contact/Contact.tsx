@@ -18,6 +18,10 @@ const ContactInfobox = styled(Infobox)`
     > :first-child {
       display: none;
     }
+
+    > * {
+      text-align: right;
+    }
   }
 `;
 
