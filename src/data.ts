@@ -124,6 +124,6 @@ export const cv: CurriculumVitae = {
   additional_information: [
     'Organisator des Devsmeetup',
     'Teilnahme an der "Angular Master Class"',
-    'Contributor Material-UI',
+    'Alumni Material-UI',
   ],
 };
