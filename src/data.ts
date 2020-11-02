@@ -32,7 +32,7 @@ export const cv: CurriculumVitae = {
       responsibilities: [
         'Anforderungsanalyse und Erstellung eines Systemkonzepts für ein zentrales Redaktionssystem sowie technische Leitung bei der Implementierung des Systems (TypeScript, NodeJS, Apollo, GraphQL, ElasticSearch, Jest).',
         'Teamleiter "Portal": Verantwortlich für die Entwicklung der Reservix Shops Systems sowie dem dazugehörigen Team (Bspw. reservix.de, tickets.dfb.de, hr-ticketcenter.de).',
-        'Planung einer Restrukturierung der "Shop" Domäne bei Reservix, sowohl technisch als auch organisatorisch. Ziel ist die Ablösung und Verjüngung des Software Monolithen und das Bilden von selbst-organisierten Produkt-Teams. In Zusammenarbeit mit PM und e-Commerce.'
+        'Planung einer Restrukturierung der "Shop" Domäne und Abteilung, sowohl technisch als auch organisatorisch. Ziel ist die Ablösung und Verjüngung des Software Monolithen und das Bilden von selbst-organisierten Produkt-Teams. In Zusammenarbeit mit PM und e-Commerce.'
       ],
     },
     {
