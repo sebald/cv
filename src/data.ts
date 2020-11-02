@@ -18,11 +18,27 @@ export const cv: CurriculumVitae = {
       twitter: 'sebastiansebald',
     },
   },
-  position: 'Software Entwickler',
+  position: 'Software Architekt',
   workExperience: [
     {
       period: {
+        from: '2018-06'
+      },
+      company: {
+        name: 'Reservix GmbH',
+        url: 'http://reservix.net',
+      },
+      position: 'Software Architekt',
+      responsibilities: [
+        'Anforderungsanalyse und Erstellung eines Systemkonzepts für ein zentrales Redaktionssystem sowie technische Leitung bei der Implementierung des Systems (TypeScript, NodeJS, Apollo, GraphQL, ElasticSearch, Jest).',
+        'Teamleiter "Portal": Verantwortlich für die Entwicklung der Reservix Shops Systems sowie dem dazugehörigen Team (Bspw. reservix.de, tickets.dfb.de, hr-ticketcenter.de).',
+        'Planung einer Restrukturierung der "Shop" Domäne bei Reservix, sowohl technisch als auch organisatorisch. Ziel ist die Ablösung und Verjüngung des Software Monolithen und das Bilden von selbst-organisierten Produkt-Teams. In Zusammenarbeit mit PM und e-Commerce.'
+      ],
+    },
+    {
+      period: {
         from: '2015-09',
+        to: '2018-05',
       },
       company: {
         name: 'PTW Freiburg GmbH',
