@@ -2,12 +2,12 @@
 
 exports[`format activity 1`] = `"activitiy @ location"`;
 
-exports[`format date 1`] = `"2000 M01"`;
+exports[`format date 1`] = `"Jan 2000"`;
 
-exports[`format date 2`] = `"2017 M12"`;
+exports[`format date 2`] = `"Dec 2017"`;
 
-exports[`format date 3`] = `"2017 M06"`;
+exports[`format date 3`] = `"Jun 2017"`;
 
-exports[`format period 1`] = `"2000 M01 - heute"`;
+exports[`format period 1`] = `"Jan 2000 - heute"`;
 
-exports[`format period 2`] = `"2000 M01 - 2000 M05"`;
+exports[`format period 2`] = `"Jan 2000 - May 2000"`;
