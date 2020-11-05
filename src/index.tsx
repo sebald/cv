@@ -2,6 +2,7 @@ import * as React from 'react';
 import { render } from 'react-dom';
 
 import { App } from './App';
+import { LanguageProvider } from './components/Language';
 import { CvProvider } from './containers/CurriculumVitae';
 
 import { info } from './console';
@@ -45,9 +46,11 @@ injectGlobal`
 
 render(
   <ThemeProvider theme={theme}>
-    <CvProvider cv={cv}>
-      <App />
-    </CvProvider>
+    <LanguageProvider>
+      <CvProvider cv={cv}>
+        <App />
+      </CvProvider>
+    </LanguageProvider>
   </ThemeProvider>,
   document.getElementById('root')
 );

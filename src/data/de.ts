@@ -1,4 +1,4 @@
-import { CurriculumVitae } from './containers/CurriculumVitae';
+import { CurriculumVitae } from '../containers/CurriculumVitae';
 
 export const cv: CurriculumVitae = {
   personalInformation: {
@@ -123,7 +123,6 @@ export const cv: CurriculumVitae = {
   ],
   additional_information: [
     'Organisator des Devsmeetup',
-    'Teilnahme an der "Angular Master Class"',
     'Alumni Material-UI',
   ],
 };

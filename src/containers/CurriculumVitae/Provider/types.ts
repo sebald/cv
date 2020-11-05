@@ -2,6 +2,6 @@ import * as React from 'react';
 import { CurriculumVitae } from '..';
 
 export type CVProviderProps = {
-  cv: CurriculumVitae;
+  cv: { [lang:string] : CurriculumVitae};
   children: React.ReactNode;
 };

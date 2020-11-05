@@ -11,7 +11,8 @@
     "lodash-es": "^4.17.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "styled-components": "^3.2.3"
+    "styled-components": "^3.2.3",
+    "use-query-string": "^2.2.0"
   },
   "devDependencies": {
     "@types/enzyme": "^3.1.9",

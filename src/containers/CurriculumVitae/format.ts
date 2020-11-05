@@ -1,10 +1,20 @@
-export const formatDateString = (date: string) => {
-  const d = new Date(date);
-  return d.toLocaleDateString('de-DE', { year: 'numeric', month: 'short' });
+const LANG_MAP = {
+  de: 'de-DE',
+  en: 'en-US'
 };
 
-export const formatPeriod = (from: string, to?: string | undefined) =>
-  `${formatDateString(from)} - ${to ? formatDateString(to) : 'heute'}`;
+const TODAY_MAP = {
+  de: 'heute',
+  en: 'today'
+};
+
+export const formatDateString = (date: string, language = 'de') => {
+  const d = new Date(date);
+  return d.toLocaleDateString(LANG_MAP[language], { year: 'numeric', month: 'short' });
+};
+
+export const formatPeriod = (from: string, to?: string | undefined, language = 'de') =>
+  `${formatDateString(from, language)} - ${to ? formatDateString(to, language) : TODAY_MAP[language]}`;
 
 export const formatActivityAtLocation = (
   activity: string,
