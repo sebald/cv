@@ -6,7 +6,7 @@ import { formatActivityAtLocation, formatDateString } from '../format';
 
 import { EducationProps } from './types';
 
-export const Education: React.SFC<EducationProps> = ({ className }) => (
+export const Education: React.FC<EducationProps> = ({ className }) => (
   <Section.Container className={className} title="Education">
     <CvConsumer>
       {({ education }) =>

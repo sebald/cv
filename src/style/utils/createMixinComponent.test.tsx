@@ -9,7 +9,7 @@ const mixinDynamic: StyledMixin<{ width: number }> = ({ width }) => ({
   width: `${width}px`,
 });
 
-const Child: React.SFC<{ className?: string }> = ({ className }) => (
+const Child: React.FC<{ className?: string }> = ({ className }) => (
   <div className={className} />
 );
 

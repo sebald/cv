@@ -7,7 +7,7 @@ const CurriculumVitaeContext = React.createContext<CurriculumVitae>({} as any);
 
 // Provider
 // ---------------
-export const CvProvider: React.SFC<CVProviderProps> = ({ cv, children }) => (
+export const CvProvider: React.FC<CVProviderProps> = ({ cv, children }) => (
   <CurriculumVitaeContext.Provider value={cv}>
     {children}
   </CurriculumVitaeContext.Provider>

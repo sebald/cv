@@ -9,9 +9,9 @@ const MainWrapper = styled.main`
   ${media('small', 'screen')`
     flex-basis: 100%;
     order: 2;
-    width: calc(100% - ${props => `${props.theme.layout.sidebar}px`});
+    width: calc(100% - ${(props) => `${props.theme.layout.sidebar}px`});
 
-    border-left: 1px solid ${color(palette => palette.grey['100'])};
+    border-left: 1px solid ${color((palette) => palette.grey['100'])};
   `};
 
   @media print {
@@ -34,7 +34,7 @@ const MainContent = styled.div`
 `;
 MainContent.displayName = 'MainContent';
 
-export const Main: React.SFC<MainProps> = ({ className, children }) => (
+export const Main: React.FC<MainProps> = ({ className, children }) => (
   <MainWrapper className={className}>
     <MainContent>{children}</MainContent>
   </MainWrapper>

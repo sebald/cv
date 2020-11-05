@@ -8,7 +8,7 @@ const ItemWrapper = styled.div`
   ${padding(0, 0, 3)};
 `;
 
-export const Item: React.SFC<SectionItemProps> = ({
+export const Item: React.FC<SectionItemProps> = ({
   title,
   caption,
   children,

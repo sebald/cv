@@ -7,7 +7,7 @@ import { formatActivityAtLocation, formatPeriod } from '../format';
 
 import { WorkProps } from './types';
 
-export const Work: React.SFC<WorkProps> = ({ className }) => (
+export const Work: React.FC<WorkProps> = ({ className }) => (
   <Section.Container className={className} title="Work">
     <CvConsumer>
       {({ workExperience }) =>
@@ -21,7 +21,9 @@ export const Work: React.SFC<WorkProps> = ({ className }) => (
               )}
               caption={formatPeriod(period.from, period.to)}
             >
-              {responsibilities.map((r, i) => <Text key={i}>{r}</Text>)}
+              {responsibilities.map((r, i) => (
+                <Text key={i}>{r}</Text>
+              ))}
             </Section.Item>
           )
         )

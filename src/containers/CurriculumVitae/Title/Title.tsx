@@ -21,7 +21,7 @@ const TitleCaption = styled(Caption)`
   ${centerOnScreenMixin};
 `;
 
-export const Title: React.SFC<TitleProps> = ({ image }) => (
+export const Title: React.FC<TitleProps> = ({ image }) => (
   <CvConsumer>
     {({ personalInformation: { firstName, lastName }, position }) => (
       <>

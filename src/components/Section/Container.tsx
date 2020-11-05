@@ -5,10 +5,10 @@ import { SectionHeading } from './SectionHeading';
 import { SectionContainerProps } from './types';
 
 const ContainerWrapper = styled.section`
-  max-width: ${props => px(props.theme.layout.content)};
+  max-width: ${(props) => px(props.theme.layout.content)};
 `;
 
-export const Container: React.SFC<SectionContainerProps> = ({
+export const Container: React.FC<SectionContainerProps> = ({
   className,
   title,
   children,

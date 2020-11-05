@@ -6,7 +6,7 @@ import * as Section from '../../../components/Section';
 
 import { AdditionalInformationProps } from './types';
 
-export const AdditionalInformation: React.SFC<AdditionalInformationProps> = ({
+export const AdditionalInformation: React.FC<AdditionalInformationProps> = ({
   className,
 }) => (
   <CvConsumer>
