@@ -123,6 +123,7 @@ export const cv: CurriculumVitae = {
     },
   ],
   additional_information: [
+    '👨‍👩‍👦‍👦  🐕  🏈  🏐',
     'Organizing Devsmeetup (local meetup group)',
     'Alumni Material-UI',
   ],
