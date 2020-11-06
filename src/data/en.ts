@@ -107,14 +107,14 @@ export const cv: CurriculumVitae = {
   ],
   education: [
     {
-      degree: 'M.Sc. Informatik',
+      degree: 'M.Sc. Computer Science',
       date: '2012-07',
       institution: 'Albert-Ludwigs-Universität Freiburg',
       grade: '1,7',
       thesis: 'Sicherheitsorientierte Simulation von Geschäftsprozessen',
     },
     {
-      degree: 'B.Sc. Informatik',
+      degree: 'B.Sc. Computer Science',
       date: '2010-02',
       institution: 'Albert-Ludwigs-Universität Freiburg',
       grade: '2,3',
