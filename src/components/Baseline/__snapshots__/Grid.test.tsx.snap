@@ -1,5 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`render <SysmetricBaseline/> 1`] = `undefined`;
+exports[`render <SysmetricBaseline/> 1`] = `
+<Portal
+  containerInfo={<div />}
+>
+  <Baseline />
+</Portal>
+`;
 
 exports[`render nothing 1`] = `""`;
