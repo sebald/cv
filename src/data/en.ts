@@ -46,8 +46,9 @@ export const cv: CurriculumVitae = {
       },
       position: 'Software Engineer',
       responsibilities: [
-        'Technische Projektleitung für die Entwicklung web-basierter Software zur Steuerung medizinischer Geräte sowie Erstellung von Systemkonzepten in Zusammenarbeit mit der Hardware-Entwicklung (TypeScript, React, Redux, RxJS, Jest, NodeJS, Express, Material-UI).',
-        'Einführung eines agilen Entwicklungsprozesses (Jira, Bitbucket, Bamboo) und Optimierung von Build-Prozessen durch Vereinheitlichung der Build-Pipelines und Erstellung von automatisierten E2E-Tests (Karma, Protractor).',
+        'Technical lead for the development of a web-based remote control for medical devices. Also, creating an architectural concept in cooperation with the hardware departement (TypeScript, React, Redux, RxJS, Jest, NodeJS, Express, Material-UI).',
+        'Responsible for the introduction of agile development practices and related software (Jira, Bitbucket, Bamboo)',
+        'Optimizing and standardise build processes. Add automatic E2E-Tests to pipelines (Karma, Protractor).'
       ],
     },
     {
@@ -59,10 +60,10 @@ export const cv: CurriculumVitae = {
         name: 'MPS GmbH',
         url: 'http://chemocompile.de',
       },
-      position: 'Gründer & Software Entwickler',
+      position: 'Founder & Software Engineer',
       responsibilities: [
-        'Leitung der FrontEnd-Entwicklung für die Neuentwicklung einer web-basierten CTx-Planungs- und Verwaltungssoftware in Zusammenarbeit mit dem Universitätsklinikum Freiburg (UKF). Einarbeitung und Schulen neuer Mitarbeiter sowie Planung neuer Funktionalitäten in Absprache mit dem Projektmanagement und der UKF.',
-        'Umsetzen eines agilen, "DIN EN ISO 13485"-konformen Entwicklungsprozesses, Erstellen eines Corporate Designs mit Hilfe einer Komponenten-Bibliothek (Living Styleguide mit Sass, Bourbon, BEM, AngularJS) und Aufbau einer Testumgebung nach TDD-Prinzipien (Karma, Protractor, Buildbot, Github).',
+        'Front-end lead: Responsible for the development of a web-based CTx planing and management software in cooperation with the University Medical Center Freiburg (UKF). Onboarding and training new employees as well as planing of new features in cooperation with project management and the UKF.',
+        'Implementing an agile and "DIN EN ISO 13485"-compliant development process. Creating and implementing a coporate design based on a custom component library (living styleguide with Sass, Bourbon, BEM, AngularJS) and setup of a testing enviroment based on TDD principles (Karma, Protractor, Buildbot, Github).',
       ],
     },
     {
@@ -72,8 +73,8 @@ export const cv: CurriculumVitae = {
       },
       position: 'Freelancer',
       responsibilities: [
-        'Erstellen von responsiven Webseiten mit Wordpress und Typo3. Bei Wordpress Projekten wurden FrontEnd und BackEnd implementiert.',
-        'Berater für die Entwicklung AngularJS-basierter Software. Zu den Aufgaben gehörte das Einlernen in AngularJS und das Aufstellen von Best Practices.',
+        'Developing responsive website with Wordpress and Typo3.',
+        'Consultant for AngularJS-based software: Training, onboarding and establishing best practices.',
       ],
     },
     {
@@ -86,8 +87,8 @@ export const cv: CurriculumVitae = {
       },
       position: 'IT-Support',
       responsibilities: [
-        'Verwaltung und Wartung von ca. 60 Arbeitsplatzrechnern (Windows NT/XP/7, Ubuntu) und zwei Servern (nginx). Einführung eines Ticketing-Systems zur effizienten Bearbeitung von technischen Problemen.',
-        'Entwickeln einer PHP-basierten Software zur Bestellung von Labormaterialien (Boostrap, jQuery, CodeIgniter, MySQL).',
+        'Manage and maintain circa 60 workstation computer (Windows NT/XP/7, Ubuntu) and two server (nginx). Introducing of a ticketing system for a more efficient handling of technical difficulties.',
+        'Developing a PHP based software for the ordering of laboraoiry material (Boostrap, jQuery, CodeIgniter, MySQL).',
       ],
     },
     {
@@ -100,7 +101,7 @@ export const cv: CurriculumVitae = {
       },
       position: 'Wissenschaftliche Hilfskraft',
       responsibilities: [
-        'Mitarbeit in DFG- und BMBF-Projekten. Innerhalb der Projekte wurde unter anderem ein SOAP-WebService zur Berechnung des monetären Kundenwerts und ein Petri-Netz-Editor (Eclipse RPC/GEF) entwickelt.',
+        'Working on DFG- und BMBF projekct. Developing a SOAP web service for the calcualtion of the monetary customer value and a Petri Net editor (Eclipse RPC/GEF).',
       ],
     },
   ],
