@@ -46,9 +46,9 @@ export const cv: CurriculumVitae = {
       },
       position: 'Software Engineer',
       responsibilities: [
-        'Technical lead for the development of a web-based remote control for medical devices. Also, creating an architectural concept in cooperation with the hardware departement (TypeScript, React, Redux, RxJS, Jest, NodeJS, Express, Material-UI).',
-        'Responsible for the introduction of agile development practices and related software (Jira, Bitbucket, Bamboo)',
-        'Optimizing and standardise build processes. Add automatic E2E-Tests to pipelines (Karma, Protractor).'
+        'Technical lead for the development of a web-based remote control for medical devices. Also, creating an architectural concept in cooperation with the hardware department (TypeScript, React, Redux, RxJS, Jest, NodeJS, Express, Material-UI).',
+        'Responsible for the introduction of agile development practices and related software (Jira, Bitbucket, Bamboo).',
+        'Optimizing and standardising build processes. Add automatic E2E-Tests to pipelines (Karma, Protractor).'
       ],
     },
     {
@@ -62,8 +62,8 @@ export const cv: CurriculumVitae = {
       },
       position: 'Founder & Software Engineer',
       responsibilities: [
-        'Front-end lead: Responsible for the development of a web-based CTx planing and management software in cooperation with the University Medical Center Freiburg (UKF). Onboarding and training new employees as well as planing of new features in cooperation with project management and the UKF.',
-        'Implementing an agile and "DIN EN ISO 13485"-compliant development process. Creating and implementing a coporate design based on a custom component library (living styleguide with Sass, Bourbon, BEM, AngularJS) and setup of a testing enviroment based on TDD principles (Karma, Protractor, Buildbot, Github).',
+        'Front-end lead: Responsible for the development of a web-based CTx planning and management software in cooperation with the University Medical Center Freiburg (UKF). Onboarding and training new employees as well as planning of new features in cooperation with project management and the UKF.',
+        'Implementing an agile and "DIN EN ISO 13485"-compliant development process. Creating and implementing a corporate design based on a custom component library (living styleguide with Sass, Bourbon, BEM, AngularJS) and setup of a testing environment based on TDD principles (Karma, Protractor, Buildbot, Github).',
       ],
     },
     {
@@ -73,7 +73,7 @@ export const cv: CurriculumVitae = {
       },
       position: 'Freelancer',
       responsibilities: [
-        'Developing responsive website with Wordpress and Typo3.',
+        'Developing responsive websites with Wordpress and Typo3.',
         'Consultant for AngularJS-based software: Training, onboarding and establishing best practices.',
       ],
     },
@@ -87,8 +87,8 @@ export const cv: CurriculumVitae = {
       },
       position: 'IT-Support',
       responsibilities: [
-        'Manage and maintain circa 60 workstation computer (Windows NT/XP/7, Ubuntu) and two server (nginx). Introducing of a ticketing system for a more efficient handling of technical difficulties.',
-        'Developing a PHP based software for the ordering of laboraoiry material (Boostrap, jQuery, CodeIgniter, MySQL).',
+        'Manage and maintain circa 60 workstation computers (Windows NT/XP/7, Ubuntu) and two servers (nginx). Introducing a ticketing system for a more efficient handling of technical difficulties.',
+        'Developing a PHP based software for the ordering of laboratory material (Boostrap, jQuery, CodeIgniter, MySQL).',
       ],
     },
     {
@@ -101,7 +101,7 @@ export const cv: CurriculumVitae = {
       },
       position: 'Wissenschaftliche Hilfskraft',
       responsibilities: [
-        'Working on DFG- und BMBF projekct. Developing a SOAP web service for the calcualtion of the monetary customer value and a Petri Net editor (Eclipse RPC/GEF).',
+        'Working on DFG- und BMBF projekct. Developing a SOAP web service for the calculation of the monetary customer value and a Petri Net editor (Eclipse RPC/GEF).',
       ],
     },
   ],
